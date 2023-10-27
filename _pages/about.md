@@ -19,7 +19,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-(The site is under construction.)
 
 I am a CBB (Computational Biology & Bioinformatics) PhD student at Yale University. I am very fortunate to be co-advised by [Prof. Yuval Kluger](https://medicine.yale.edu/lab/kluger/) and [Prof. Rong Fan](https://seas.yale.edu/faculty-research/faculty-directory/rong-fan). Before my PhD, I earned BS degree in Integrated Science from Peking University, focusing on applied math and biology. During my undergraduate, I did research in [Lin lab](http://www.thelinlab.org/index.html) at Peking University and worked as a research intern in [van Dijk lab](https://www.vandijklab.org) at Yale University.
 
