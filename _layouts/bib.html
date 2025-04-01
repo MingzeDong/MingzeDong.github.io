@@ -25,6 +25,23 @@
           {%- else -%}
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
+          
+          <!-- 添加 abbr2 支持 -->
+          {%- if entry.abbr2 -%}
+            {%- if site.data.venues[entry.abbr2] -%}
+              {%- assign venue_style2 = nil -%}
+              {%- if site.data.venues[entry.abbr2].color != blank -%}
+                {%- assign venue_style2 = site.data.venues[entry.abbr2].color | prepend: 'style="background-color:' | append: '"' -%}
+              {%- else -%}
+                {%- assign venue_style2 = 'style="background-color:#e83e8c;"' -%}
+              {%- endif -%}
+              <br>
+              <abbr class="badge abbr2" {% if venue_style2 %}{{venue_style2}}{% endif %}><a href="{{site.data.venues[entry.abbr2].url}}">{{entry.abbr2}}</a></abbr>
+            {%- else -%}
+              <br>
+              <abbr class="badge abbr2" style="background-color:#e83e8c;">{{entry.abbr2}}</abbr>
+            {%- endif -%}
+          {%- endif -%}
         {%- endif -%}
         </div>
         {%- endif -%}
