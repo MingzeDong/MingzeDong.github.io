@@ -20,7 +20,5 @@ social: true  # includes social icons at the bottom of the page
 
 I am a CBB (Computational Biology & Bioinformatics) PhD student at Yale University, fortunate to be co-advised by [Prof. Yuval Kluger](https://medicine.yale.edu/lab/kluger/) and [Prof. Rong Fan](https://seas.yale.edu/faculty-research/faculty-directory/rong-fan). Before my PhD, I earned a BS degree in Integrated Science from Peking University, focusing on applied math and biology. I also conducted research in the [Lin lab](http://www.thelinlab.org/index.html) and [van Dijk lab](https://www.vandijklab.org).
 
-My research interests lie in representation learning for biological data, in particular genomics data. My works aim to cover both theoretical rigor and superior empirical performance. My earlier works include applications for single-cell perturbation modeling (**CINEMA-OT**, *Nature Methods*), understanding GNN performance through random matrix theory (**ESNR**, *ICML*), and Granger causal inference in spatial omics data (**GEASS**, *ICLR Spotlight*). More recently, I develop identifiability theories and practical implementations to disentangle representations in spatial omics data (**SIMVI**, *Nature Communications Editor Highlight*) and massive single-cell compendiums (**scShift**), which overcomes the well-known batch effect problem. Additionally, I am engaged in extensive collaborations with biologists to analyze real-world biological data (*Nature*, with more publications in progress).
-
-Feel free to contact me if you are interested in potential collaboration or just a chat!
+I work at the intersection of statistics, deep learning, and computational biology.
 
