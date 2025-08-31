@@ -22,6 +22,11 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Fellow
+      institution: Arc Institute
+      year: 2025.6 - 2025.12
+      description:
+        - Building and pretraining state-of-the-art AI models for biology.
     - title: Research Intern 
       institution: Yale University
       year: 2020.6 - 2021.6
